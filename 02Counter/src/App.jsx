@@ -8,11 +8,21 @@ function App() {
 
   const addValue = () => {
     console.log(counter);
-    counter += 1;
-    setCounter(counter);
+    // counter += 1;
+    // setCounter(counter);
+    setCounter((counter) => counter + 1);
+    setCounter((counter) => counter + 1);
+    setCounter((counter) => counter + 1);
+    setCounter((counter) => counter + 1);
   };
   const removeValue = () => {
     console.log(counter);
+    counter -= 1;
+    setCounter(counter);
+    counter -= 1;
+    setCounter(counter);
+    counter -= 1;
+    setCounter(counter);
     counter -= 1;
     setCounter(counter);
   };
