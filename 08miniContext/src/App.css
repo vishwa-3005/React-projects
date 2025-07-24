@@ -1,0 +1,35 @@
+@import "tailwindcss";
+/* Wrapper for your entire context */
+.user-context-provider {
+  background-color: #121212;
+  color: #f0f0f0;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main Heading */
+.user-context-provider h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #00ffc8;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+/* Card-style container for Login/Profile */
+.card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 255, 200, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
